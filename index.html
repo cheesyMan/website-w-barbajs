@@ -1,0 +1,46 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body data-barba="wrapper">
+  <header>
+    <h1>WEBSITE HOME</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Homepage</a>
+      </li>
+
+      <li>
+        <a href="src/pages/contact.html">
+          Contacts
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- put here content that will not change
+    between your pages, like <header> or <nav> -->
+
+  <!-- <div id="app"></div> -->
+  <main id='app' data-barba="container" data-barba-namespace="home">
+    <!-- put here the content you wish to change
+      between your pages, like your main content <h1> or <p> -->
+  </main>
+
+  <!-- put here content that will not change
+    between your pages, like <footer> -->
+  <footer></footer>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

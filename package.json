@@ -1,0 +1,17 @@
+{
+  "name": "barbajs-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A small project to play with the Barba.js library",
+  "author": "Alberto Platania",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
